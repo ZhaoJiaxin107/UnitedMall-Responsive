@@ -11,6 +11,7 @@
 .wrap header{
     height: 60px;
     line-height: 60px;
+    border-bottom: 1px solid #e6e6e6;
 }
 .wrap header .logo{
     width: 220px;

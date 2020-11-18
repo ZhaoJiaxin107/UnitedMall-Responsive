@@ -24,6 +24,7 @@
         padding: 20px 0;
         text-align: center;
         background-color: #ffffff;
+        border-top: 1px solid #e6e6e6;
     }
     .wrap .navlist .sidenav .active .innernav{
         display: none;
@@ -40,6 +41,7 @@
     } 
     .wrap .navlist .sidenav .active{
         background-color: #009788;
+        border: 1px solid #82cac6;
     }
     .wrap .navlist .sidenav .active > a{
         color:#ffffff;
@@ -50,6 +52,22 @@
     .wrap main .content .order{
         width: 46%;
         margin: 15px 2%;
+    }
+}
+/* phone version */
+@media screen and (max-width: 767px){
+    .wrap .navlist .iconmore{
+        display: block;
+        position: absolute;
+        top: -40px;
+        left: 18px;
+    }
+    .wrap header .avatar {
+        margin-right: 18px;
+    }
+    .wrap main .content .order{
+        width: 93%;
+        margin: 12px 4%;
     }
 
 }
