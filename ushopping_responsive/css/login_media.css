@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* pad version*/
+@media screen and (max-width:992px){
+    .wrap{
+        width: 100%;
+        height: 757px;
+    }
+    .wrap header{
+        display: none; 
+    }
+    .wrap main > .loginbox{
+        width: 97%;
+        height: 360px; 
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .wrap main .loginbox > h3{
+        margin:24px 0 24px 30px;
+        font:bold 18px/1 "宋体";
+    }
+    .wrap main .loginbox > form> p,
+    .wrap main .loginbox > form>.login{
+        margin-left: 30px;
+    }
+    .wrap main .loginbox > form> p > label{
+        font:bold 10.5px/20px "宋体";
+    }
+    .wrap main .loginbox > form> p > label > input{
+        /* width: 594px; */
+        width: 96%;
+        height: 30px;
+        border: 2px solid #d9d9d9;
+        border-radius: 4px;
+        margin: 7.5px auto;
+        font-size: 10.5px;
+        text-indent: 2em;
+        box-sizing: border-box;
+    }
+    .wrap main .loginbox > form>.rempwd{
+        margin-left:20px; 
+        padding-bottom: 7.5px;
+    }
+    .wrap main .loginbox > form>.rempwd > label > input[type=checkbox]{
+        vertical-align: middle;
+        zoom: 100%; 
+    }
+    .wrap main .loginbox > form>.rempwd > label{
+        font: bold 10.5px/18px "宋体" ;
+        padding-left: 7.5px;
+    }
+    .wrap main .loginbox > form>.login{
+        width: 93%;
+        height: 30px;
+        background-color: #ff4500;
+        font: bold 15px/1 "宋体";
+        color:#ffffff;
+        border-radius: 4.5px;
+    }
+    .wrap main .loginbox .hint{
+        font:9px/1 "宋体";
+        text-align: center;
+        padding-top: 15px;
+        
+    }
+    .wrap main .loginbox .hint > a{
+        font: bold 10.5px/1 "宋体";
+        color:#088fcf;
+        text-decoration: underline;
+    }
+
+}
+
+/* phone version */
+@media screen and (max-width: 767px){
+}
