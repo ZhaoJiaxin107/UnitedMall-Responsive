@@ -31,5 +31,54 @@ html, body{
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-
+}
+.wrap main .loginbox > h3{
+    margin:38px 0 30px 40px;
+    font:bold 24px/1 "宋体";
+}
+.wrap main .loginbox > form> p,
+.wrap main .loginbox > form>.login{
+    margin-left: 40px;
+}
+.wrap main .loginbox > form> p > label{
+    font:bold 15px/25px "宋体";
+}
+.wrap main .loginbox > form> p > label > input{
+    width: 320px;
+    height: 40px;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-indent: 2em;
+    box-sizing: border-box;
+}
+.wrap main .loginbox > form>.rempwd{
+    margin-left:32px; 
+    padding-bottom: 10px;
+}
+.wrap main .loginbox > form>.rempwd > label > input[type=checkbox]{
+    vertical-align: middle;
+    zoom: 140%;
+}
+.wrap main .loginbox > form>.rempwd > label{
+    font: bold 12px/25px "宋体" ;
+    padding-left: 10px;
+}
+.wrap main .loginbox > form>.login{
+    width: 320px;
+    height: 40px;
+    background-color: #ff4500;
+    font: 20px/1 "宋体";
+    color:#ffffff;
+}
+.wrap main .loginbox .hint{
+    font:12px/1 "宋体";
+    text-align: center;
+    padding-top: 22px;
+}
+.wrap main .loginbox .hint > a{
+    font: bold 14px/1 "宋体";
+    color:#088fcf;
+    text-decoration: underline;
 }
