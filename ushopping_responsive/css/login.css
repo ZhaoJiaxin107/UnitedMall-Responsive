@@ -5,7 +5,7 @@ html, body{
 }
 .wrap{
     width: 100%;
-    height: 100%;
+    height: 757px;
     background-image: linear-gradient(to bottom, #f3e8e6, #e89b7f);
 }
 .wrap header{
@@ -19,4 +19,17 @@ html, body{
     width: 95px;
     height: 90px;
     margin-top: 86px;
+}
+.wrap main{
+    position: relative;
+}
+.wrap main > .loginbox{
+    width: 400px;
+    height: 478px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
 }
