@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+.wrap{
+    position: relative;
+}
 .wrap header{
     height: 60px;
     line-height: 60px;
@@ -35,4 +37,55 @@
     vertical-align: middle;
     padding-right: 10px;
 }
+.wrap .navlist{
+    width: 220px;
+    min-height: calc(100vh - 60px);
+    border: 1px solid #333;
+    position: absolute;
+    top:60px;
+    left:0;
+}
+.wrap .navlist .iconmore{
+    font-size: 28px;
+    color: #5b5b5b;
+    display: none;
+}
+.wrap .navlist .sidenav{
+    padding: 0 0 0 60px;
+}
+.wrap .navlist .sidenav > li{
+    margin-top: 40px;
+}
+.wrap .navlist .sidenav > li > a{
+    font: 18px/1 "宋体";
+    color:#3d2d30;
+    letter-spacing: 1px;
+}
+.wrap .navlist .sidenav > .active > a{
+    color: #d8e562;
+}
+.wrap .navlist .sidenav .active .innernav{
+    margin-top: 10px;
+}
+.wrap .navlist .sidenav .active .innernav > li{
+    width: 136px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.wrap .navlist .sidenav .active .innernav .on{
+    background-color: #ea967a;
+}
+.wrap .navlist .sidenav .active .innernav > li > a{
+    font:16px/30px "宋体";
+    color:#37313f;
+}
+.wrap .navlist .sidenav .active .innernav > li > a > i{
+    font-size: 17px;
+    color: #016c00;
+    vertical-align: baseline;
+}
+
+
+
 
