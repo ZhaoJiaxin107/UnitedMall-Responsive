@@ -53,7 +53,7 @@
 .wrap .navlist .iconmore{
     font-size: 28px;
     color: #5b5b5b;
-    display: none;
+    display: none; 
 }
 .wrap .navlist .sidenav{
     padding: 0 0 0 60px;
@@ -132,7 +132,7 @@
     padding: 18px 13px;
 }
 .wrap main .content .order > p{
-    font: 20px/1 "宋体";
+    font: 600 18px/1 "宋体";
     padding-left: 10px;
 }
 .wrap main .content .order .detail{
