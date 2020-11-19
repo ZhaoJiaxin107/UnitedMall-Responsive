@@ -9,6 +9,9 @@ body, html{
 .mt30{
     margin-top:30px;
 }
+.mr335{
+    margin-right: 335px;
+}
 .wrap header{
     width: 100%;
     height: 80px;
@@ -35,19 +38,22 @@ body, html{
 .wrap main .content > h3{
     font: 22px/1 "宋体";
 }
-.wrap main .content > form > p{
+.wrap main .content > form > p,
+.wrap main .content > form > .price{
     margin-top: 30px;
 }
-.wrap main .content > form > p > i{
+.wrap main .content > form > p >span> i,
+.wrap main .content > form > .price > p >span> i{
     color:#fa000a;
 }
-.wrap main .content > form > p > span{
+.wrap main .content > form > p > span,
+.wrap main .content > form > .price > p > span{
     display: inline-block;
     width: 110px;
     height: 30px;
     font: 16px/30px "宋体";
 }
-.wrap main .content > form > p > input{
+.wrap main .content > form > p > .text{
     width: 847px;
     height: 30px;
     box-sizing: border-box;
@@ -80,4 +86,17 @@ body, html{
     font-size: 14px;
     border-radius: 3px;
     margin-left: 13px;
+}
+.wrap main .content > form > .price > p{
+    width: 175px;
+    height: 65px;
+}
+.wrap main .content > form > .price > p > .textone{
+    width: 156px;
+    height: 28px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+    background-color: #ffffff;
+    text-indent: 1em;
 }

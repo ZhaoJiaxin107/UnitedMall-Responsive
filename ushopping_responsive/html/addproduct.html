@@ -27,20 +27,22 @@
             <div class="content">
                 <h3 class="pt30">添加产品</h3>
                 <form action="#" method="get">
-                    <p><i class="iconfont icon-bitian"></i>
-                        <span>商品名称:</span>
-                        <input type="text" name="productname" autocomplete="off">
+                    <p><span><i class="iconfont icon-bitian"></i>
+                        商品名称:</span>
+                        <input type="text" name="productname" autocomplete="off" class = "text">
                     </p>
-                    <p><i class="iconfont icon-bitian"></i>
-                        <span>简单描述:</span>
-                        <input type="text" name="description" autocomplete="off">
+                    <p><span><i class="iconfont icon-bitian"></i>
+                        简单描述:</span>
+                        <input type="text" name="description" autocomplete="off" class = "text">
                     </p>
-                    <p><i class="iconfont icon-bitian"></i>
-                        <span>关键字:</span>
-                        <input type="text" name="keywords" placeholder="请用,分隔关键字" autocomplete="off">
+                    <p><span><i class="iconfont icon-bitian"></i>
+                        关键字:</span>
+                        <input type="text" name="keywords" placeholder="请用,分隔关键字" autocomplete="off" class = "text">
                     </p>
-                    <p class="classification"><i class="iconfont icon-bitian"></i>
-                        <span>产品分类:</span>
+                    <p class="classification">
+                        <span>
+                        <i class="iconfont icon-bitian"></i>
+                        产品分类:</span>
                         <a>
                             <input type="checkbox" name="new"> 新品发布
                         </a>
@@ -51,6 +53,40 @@
                             <input type="checkbox" name="special"> 特价处理
                         </a>
                         <button>添加分类</button>
+                    </p>
+                    <!-- three items -->
+                    <div class="price clearfix">
+                        <p class="fl mr335">
+                            <span>
+                            <i class="iconfont icon-bitian"></i>
+                             商品原价:</span><br>
+                            <input type="text" name = "initprice" class="textone"> 元
+                        </p>
+                        <p class="fl mr335">
+                            <span>
+                            <i class="iconfont icon-bitian"></i>
+                            商品现价:</span><br>
+                            <input type="text" name = "currprice"  class="textone"> 元
+                        </p>
+                        <p class="fl">
+                            <span>
+                            <i class="iconfont icon-bitian"></i>
+                            商品数量:</span><br>
+                            <input type="text" name = "number"  class="textone"> 个
+                        </p>
+                    </div>
+
+                    <!-- set size -->
+                    <p>
+                        <span>设置规格:</span>
+                        <input type="text" name="setsize" autocomplete="off" class = "text">
+                    </p>
+
+                    <!-- whether to sell -->
+                    <p class = "judge">
+                        <span>是否上架:</span>
+                        <input type="checkbox">是
+                        <input type="checkbox">否
                     </p>
                 </form>
             </div>
