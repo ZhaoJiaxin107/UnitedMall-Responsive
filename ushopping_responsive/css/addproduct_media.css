@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* pad version */
+@media screen and (max-width: 992px){
+.wrap header{
+    width: 100%;
+    height: 30px;
+}
+.wrap header > h3{
+    font:12px/1 "宋体";
+    padding:9px 0 9px 22.5px;
+}
+.wrap main{
+    width: 100%;
+    height: 1153px;
+}
+.wrap main .content{
+    width: 92%;
+}
+.wrap main .content > h3{
+    font: 13.5px/1 "宋体";
+    padding-top: 22.5px;
+}
+.wrap main .content > form > p,
+.wrap main .content > form > .price{
+    margin-top: 30px;
+}
+.wrap main .content > form > p > span,
+.wrap main .content > form > .price > p > span{
+    display: inline-block;
+    width: 100%;
+    height: 18px;
+    font: 12px/1 "宋体";
+}
+.wrap main .content > form > p > .text{
+    width: 85%;
+    height: 21px;
+}
+.wrap main .content > form > .classification > a{
+    display: inline-block;
+    width: 40%;
+    height: 23px;
+    font:12px/23px "宋体";
+    text-align: left;
+    margin:18px 5% 0 0; 
+    padding-left: 4px;
+
+}
+.wrap main .content > form > .classification > a >input[type=checkbox],
+.wrap main .content > form > .judge > label > input[type=checkbox]{
+    width: 13.5px;
+    height: 13.5px;
+}
+.wrap main .content > form > .classification > button{
+    width: 10%;
+    height: 24px;
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+.wrap main .content > form > .price > p{
+    width: 85%;
+    height: 45px;
+    
+}
+.wrap main .content > form > .price > p > .textone{
+    width: 80%;
+    height: 22.5px;
+}
+.wrap main .content > form > .judge > label{
+    font-size: 12px;
+}
+.wrap main .content > form > .textarea > textarea{
+    width: 85.7%;
+    height: 150px;
+}
+.wrap main .content > form > .operation{
+    text-align: center;
+    margin-top: 27px;
+}
+.wrap main .content > form > .operation > button{
+    padding:6px 9px;
+    border-radius: 3px;
+    font:12px/1 "宋体";
+}
+.wrap main .content > form > .operation > button:nth-of-type(1),
+.wrap main .content > form > .operation > button:nth-of-type(2){
+    margin-right: 18px;
+}
+
+}
+/* phone version */
+@media screen and (max-width: 767px){
+
+}
