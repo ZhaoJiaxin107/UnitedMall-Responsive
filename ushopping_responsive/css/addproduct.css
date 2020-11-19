@@ -39,7 +39,8 @@ body, html{
     padding-top:30px;
 }
 .wrap main .content > form > p,
-.wrap main .content > form > .price{
+.wrap main .content > form > .price,
+.wrap main .content > form > .size {
     margin-top: 30px;
 }
 .wrap main .content > form > p >span> i,
@@ -47,13 +48,15 @@ body, html{
     color:#fa000a;
 }
 .wrap main .content > form > p > span,
+.wrap main .content > form > .size > span,
 .wrap main .content > form > .price > p > span{
     display: inline-block;
     width: 110px;
     height: 30px;
     font: 16px/30px "宋体";
 }
-.wrap main .content > form > p > .text{
+.wrap main .content > form > p > .text,
+.wrap main .content > form > .size > .text{
     width: 847px;
     height: 30px;
     box-sizing: border-box;
@@ -100,6 +103,9 @@ body, html{
     vertical-align: middle;
     background-color: #ffffff;
     text-indent: 1em;
+}
+.wrap main .content > form > .size > h5{
+    display: none;
 }
 .wrap main .content > form > .judge > label{
     font-size: 14px;
