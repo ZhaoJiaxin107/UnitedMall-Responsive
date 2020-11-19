@@ -60,3 +60,13 @@ body,html{
     box-sizing: border-box;
     vertical-align: top;
 }
+#itemtable{
+    text-align: center;
+    margin-top: 50px;
+}
+#itemtable th{
+    font: bold 18px "宋体";
+}
+#itemtable td{
+    font: 14px "宋体";
+}
