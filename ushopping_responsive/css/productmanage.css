@@ -60,6 +60,9 @@ body,html{
     box-sizing: border-box;
     vertical-align: top;
 }
+.wrap > header > .searchphone{
+    display: none;
+}
 #itemtable{
     text-align: center;
     margin-top: 50px;
