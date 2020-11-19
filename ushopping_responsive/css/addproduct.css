@@ -56,3 +56,28 @@ body, html{
     background-color: #ffffff;
     text-indent: 1em;
 }
+.wrap main .content > form > .classification > a{
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    font:14px/32px "宋体";
+    color: #3c3c3c;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+    margin-left: 3px; 
+    border-radius: 3px;
+}
+.wrap main .content > form > .classification > a >input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.wrap main .content > form > .classification > button{
+    width: 70px;
+    height: 32px;
+    background-color: #438eb8;
+    color:#e3ffff;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: 13px;
+}
