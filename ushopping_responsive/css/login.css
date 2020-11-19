@@ -70,6 +70,8 @@ html, body{
     background-color: #ff4500;
     font: 20px/1 "宋体";
     color:#ffffff;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .wrap main .loginbox .hint{
     font:12px/1 "宋体";
