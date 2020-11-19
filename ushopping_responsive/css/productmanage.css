@@ -1,0 +1,62 @@
+@charset "utf-8";
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 97%;
+    height: 100%;
+    margin: 0 auto;
+}
+.wrap h3{
+    padding-top: 20px;
+    font: 600 20px/24px "宋体";
+    color:#313131;
+    border-bottom: 1px solid #cacaca;
+}
+.wrap header{
+    width: 100%;
+    height: 72px;
+    border-bottom: 1px solid #cacaca;
+    overflow: hidden;
+}
+.wrap > header > .operation{
+     margin-top: 17px;
+}
+.wrap > header >.operation > a{
+    display: inline-block;
+    width: 67px;
+    height: 37px;
+    border: 1px solid #cacaca;
+    font:12px/37px "宋体";
+    color: #454545;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.wrap > header >.operation > a:nth-of-type(n+2){
+    border-left-style: none;
+}
+.wrap > header > .search{
+    margin-top: 20px;
+}
+.wrap > header > .search > label{
+    font:16px/1 "宋体";
+}
+.wrap > header > .search > label > input{
+    width: 175px;
+    height: 30px;
+    border: 1px solid #e7e7e7;
+    font-size: 15px;
+    text-indent: 1em;
+    box-sizing: border-box;
+}
+.wrap > header > .search > button{
+    width: 50px;
+    height: 30px;
+    font: 14px/1 "宋体";
+    color:#000000;
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    vertical-align: top;
+}
