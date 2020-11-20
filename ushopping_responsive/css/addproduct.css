@@ -6,9 +6,6 @@ body, html{
 .mt30{
     margin-top:30px;
 }
-.mr335{
-    margin-right: 335px;
-}
 .ml40{
     margin-left: 40px;
 }
@@ -27,7 +24,7 @@ body, html{
 }
 .wrap main{
     width: 100%;
-    height: 953px;
+    height: 1153px;
 }
 .wrap main .content{
     width: 96%;
@@ -95,6 +92,10 @@ body, html{
     width: 175px;
     height: 65px;
 }
+.wrap main .content > form > .price > .origin,
+.wrap main .content > form > .price > .present{
+    margin-right: 18%;
+}
 .wrap main .content > form > .price > p > .textone{
     width: 156px;
     height: 28px;
@@ -111,7 +112,7 @@ body, html{
     font-size: 14px;
 }
 .wrap main .content > form > .textarea > textarea{
-    width: 1150px; 
+    width: 85%; 
     height: 200px;
     outline:none;
     border: 1px solid #a7a7a7

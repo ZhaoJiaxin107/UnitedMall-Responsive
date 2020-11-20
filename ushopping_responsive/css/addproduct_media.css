@@ -53,15 +53,17 @@
         height: 23px;
         font-size: 10px;
         margin-left: 10px;
-    
     }
     .wrap main .content > form > .price > p{
-        width: 85%;
-        height: 45px;
-        
+        width: 100%;
+        height: 45px; 
+    }
+    .wrap main .content > form > .price > .origin,
+    .wrap main .content > form > .price > .present{
+        margin-right: 0;
     }
     .wrap main .content > form > .price > p > .textone{
-        width: 95%;
+        width: 80%;
         height: 22.5px;
     }
     .wrap main .content > form > .judge > label{
@@ -110,11 +112,8 @@
         font: bold 12px/1 "宋体";
         padding-top: 23px;
     }
-    .wrap main .content > form > p,
-    .wrap main .content > form > .price{
-        margin-top: 30px;
-    }
     .wrap main .content > form > p > span,
+    .wrap main .content > form > .size > span,
     .wrap main .content > form > .price > p > span{
         display: inline-block;
         width: 100%;
