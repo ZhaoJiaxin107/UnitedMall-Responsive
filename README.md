@@ -22,7 +22,9 @@ be compatiable with multiple terminals rather than making a specific version for
 
 ***Main Technologies***
 >> HTML/HTML5
+
 >> CSS/CSS3
+
 >> Media screen 
 
 
